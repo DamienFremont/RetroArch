@@ -22,10 +22,8 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 follow up of [Dynamic Wallpapers. Google link in comments. (Reddit)](https://www.reddit.com/r/RetroArch/comments/mz1zq0/dynamic_wallpapers_google_link_in_comments/)
 
 ![alt text](./assets/wallpapers/Amstrad%20-%20CPC.png)
-![alt text](./assets/wallpapers/Amstrad%20-%20CPC%20alt%201.png)
 
 ![alt text](./assets/wallpapers/Commodore%20-%20Amiga.png)
-![alt text](./assets/wallpapers/Commodore%20-%20Amiga%20alt%201.png)
 
 ## FAQ
 

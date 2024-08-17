@@ -18,16 +18,21 @@ assets/Makefile
 
 autoconfig
 bearer
+cheats
+config
 cores
 database
+downloads
 audio
 filters
 iconengines
 imageformats
 info
+layouts
 logs
 overlays
 platforms
+recordings
 screenshots
 shaders
 styles

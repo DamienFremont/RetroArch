@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "*log*": true,
+        "*.exe": true,
+        "*.dll": true,
+        "*.bsv": true,
+        "content_*.lpl": true,
+        "*.cfg": true,
+        "*.conf": true,
+        "*.url": true,
+    }
+}
