@@ -1,0 +1,55 @@
+
+
+# RetroArch ###########################
+
+# assets
+assets/glui
+assets/menu_widgets
+assets/nxrgui
+assets/ozone
+assets/pkg
+assets/rgui
+assets/sounds
+assets/switch
+assets/xmb
+assets/configure
+assets/COPYING
+assets/Makefile
+
+autoconfig
+bearer
+cores
+database
+audio
+filters
+iconengines
+imageformats
+info
+logs
+overlays
+platforms
+screenshots
+shaders
+styles
+system
+
+*log*
+*.exe
+*.dll
+*.bsv
+content_*.lpl
+*.cfg
+*.conf
+*.url
+
+# RetroArch - Custom ##################
+
+# note: first install
+!assets/wallpapers/*
+playlists
+roms
+thumbnails
+
+# note: shared between devices
+saves
+states
