@@ -4,6 +4,15 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 
 ![alt text](./docs/thumb.png)
 
+## Content
+
+  1. [Install](#install)
+  2. [Config](#configuration)
+  3. [Usage](#usage)
+  4. [Contribution](#contribution)
+  5. [Resources](#resources)
+
+---------------------------------------
 
 ## Install
 
@@ -16,27 +25,45 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 
 ### Cores
 
-- `cap32_libretro.dll`: Amstrad - CPC
-- `dolphin_libretro.dll`: Nintendo - Game Cube, Wii 
-- `fbneo_libretro.dll`: FBNeo - Arcade Games
-  - copy `stvbios.zip` to `RetroArch/system`
-- `mame_libretro.dll`: MAME
-- `mgba_libretro.dll`: Nintendo - Game Boy, Game Boy Color, Game Boy Advance
-  - copy `gb_bios.bin, gbc_bios.bin, gba_bios.bin, sgb_bios.bin` to `RetroArch/system`
-- `mupen64plus_next_libretro.dll`: Nintendo - Nintendo 64
-- `nestopia_libretro.dll`: Nintendo - NES
-- `pcsx_rearmed_libretro.dll`: Sony - Playstation
-  - copy `scph5500.bin, scph5501.bin, scph5502.bin` to `RetroArch/system`
-- `pcsx2_libretro.dll`: Sony - Playstation 2
-- `picodrive_libretro.dll`: Sega - Master System, Mega Drive - Genesis, 32X, Game Gear
-  - copy `bios.sms` to `RetroArch/system`
-  - and `bios_CD_E.bin, bios_CD_J.bin, bios_CD_U.bin` to `RetroArch/system`
-- `puae_libretro.dll`: Commodore - Amiga
-  - copy [capsimg.dll](https://github.com/rsn8887/capsimg/releases) to `RetroArch/`
-  - copy [kick34005.A500](https://github.com/rsn8887/capsimg/releases) to `RetroArch/system`
-- `snes9x_libretro.dll`: Nintendo - SNES
+- Sony - Playstation 2
+  - `RetroArch/core/pcsx2_libretro.dll`
+  - `RetroArch/system/pcsx2/bios/SCPH-70004_BIOS_V12_EUR_200.BIN`
+- Sony - Playstation/PSX
+  - `RetroArch/core/pcsx_rearmed_libretro.dll`
+  - `RetroArch/system/scph5500.bin, scph5501.bin, scph5502.bin`
+- Nintendo - Game Cube, Wii 
+  - `RetroArch/core/dolphin_libretro.dll`
+- Nintendo - Nintendo 64
+  - `RetroArch/core/mupen64plus_next_libretro.dll`
+- Nintendo - SNES
+  - `RetroArch/core/snes9x_libretro.dll`
+- Nintendo - Game Boy, Game Boy Color, Game Boy Advance
+  - `RetroArch/core/mgba_libretro.dll`
+  - `RetroArch/system/gb_bios.bin, gbc_bios.bin, gba_bios.bin, sgb_bios.bin`
+- Nintendo - NES
+  - `RetroArch/core/nestopia_libretro.dll`
+- Sega Dreamcast
+  - `RetroArch/core/flycast_libretro.dll`
+  - `RetroArch/system/dc/`[dc_boot.bin](https://archive.org/download/dc_boot)
+  - `RetroArch/system/dc/awbios.zip, naomi.zip, naomi2.zip`
+- Sega - Master System, Mega Drive/Genesis, 32X, Game Gear
+  - `RetroArch/core/picodrive_libretro.dll`
+  - `RetroArch/system/bios.sms`
+  - `RetroArch/system/bios_CD_E.bin, bios_CD_J.bin, bios_CD_U.bin`
+- Amstrad - CPC
+  - `RetroArch/core/cap32_libretro.dll`
+- Commodore - Amiga
+  - `RetroArch/core/puae_libretro.dll`
+  - `RetroArch/`[capsimg.dll](https://github.com/rsn8887/capsimg/releases)
+  - `RetroArch/system/`[capsimg.dll](https://github.com/rsn8887/capsimg/releases)
+  - `RetroArch/system/`[kick34005.A500](https://github.com/rsn8887/capsimg/releases) (bios)
+- Arcade
+  - `RetroArch/core/mame_libretro.dll`
+  - `RetroArch/core/fbneo_libretro.dll`
+    - `RetroArch/system/stvbios.zip` (bios)
 
-### Configuration
+
+## Configuration
 
 Desktop Menu (F5) -> View -> Settings...
 
@@ -99,7 +126,7 @@ Why no system after year 2000 ?
 
 ---
 
-## LINKS
+## Resources
 
 - roms
   - http://www.gametronik.com/
