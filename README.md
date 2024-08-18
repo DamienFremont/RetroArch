@@ -16,19 +16,25 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 
 ### Cores
 
-- cap32_libretro.dll: Amstrad - CPC
-- dolphin_libretro.dll: Nintendo - Game Cube, Wii 
-- fbneo_libretro.dll: FBNeo - Arcade Games
-- mame_libretro.dll: MAME
-- mgba_libretro.dll: Nintendo - Game Boy, Game Boy Color, Game Boy Advance
-- mupen64plus_next_libretro.dll: Nintendo - Nintendo 64
-- nestopia_libretro.dll: Nintendo - NES
-- pcsx_rearmed_libretro.dll: Sony - Playstation
-- pcsx2_libretro.dll: Sony - Playstation 2
-- picodrive_libretro.dll: Sega - Master System, Mega Drive - Genesis, 32X
-- puae_libretro.dll: Commodore - Amiga
-- smsplus_libretro.dll: Sega - Game Gear
-- snes9x_libretro.dll: Nintendo - SNES
+- `cap32_libretro.dll`: Amstrad - CPC
+- `dolphin_libretro.dll`: Nintendo - Game Cube, Wii 
+- `fbneo_libretro.dll`: FBNeo - Arcade Games
+  - copy `stvbios.zip` to `RetroArch/system`
+- `mame_libretro.dll`: MAME
+- `mgba_libretro.dll`: Nintendo - Game Boy, Game Boy Color, Game Boy Advance
+  - copy `gb_bios.bin, gbc_bios.bin, gba_bios.bin, sgb_bios.bin` to `RetroArch/system`
+- `mupen64plus_next_libretro.dll`: Nintendo - Nintendo 64
+- `nestopia_libretro.dll`: Nintendo - NES
+- `pcsx_rearmed_libretro.dll`: Sony - Playstation
+  - copy `scph5500.bin, scph5501.bin, scph5502.bin` to `RetroArch/system`
+- `pcsx2_libretro.dll`: Sony - Playstation 2
+- `picodrive_libretro.dll`: Sega - Master System, Mega Drive - Genesis, 32X, Game Gear
+  - copy `bios.sms` to `RetroArch/system`
+  - and `bios_CD_E.bin, bios_CD_J.bin, bios_CD_U.bin` to `RetroArch/system`
+- `puae_libretro.dll`: Commodore - Amiga
+  - copy [capsimg.dll](https://github.com/rsn8887/capsimg/releases) to `RetroArch/`
+  - copy [kick34005.A500](https://github.com/rsn8887/capsimg/releases) to `RetroArch/system`
+- `snes9x_libretro.dll`: Nintendo - SNES
 
 ### Configuration
 
@@ -40,6 +46,14 @@ Settings -> Drivers:
 
 Settings -> Input -> Hotkey Binds:
 - Menu Toggle Gamepad Combo: "Start + Select"
+
+Settings -> User Interface -> Menu Item Visibility -> Tabs
+- Show Settings: OFF
+- Show Images: OFF
+- Show Music: OFF
+- Show Video: OFF
+- Show Netplay: OFF
+- Show Import: OFF
 
 Settings -> User Interface -> Appearance
 - Shader Pipeline: OFF
