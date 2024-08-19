@@ -94,10 +94,36 @@ Settings -> User Interface -> Appearance
 
 ## Usage
 
-- Toggle Desktop Menu: F5
-- Toggle Menu: F1 or "Start + Select"
-- Speed up: SPACE
-- Fullscreen: F
+- Toggle Desktop Menu: <kbd>F5</kbd>
+- Toggle Menu: <kbd>F1</kbd> or <kbd>Start</kbd>+<kbd>Select</kbd>
+- Speed up: <kbd>SPACE</kbd>
+- Fullscreen: <kbd>F</kbd>
+- DIsable Shader/Filter: <kbd>,</kbd>
+
+## Shader by default
+
+ex: CRT Royale
+
+- start RetroArch...
+- start a game...
+- toggle menu (F1)
+  - Shaders
+    - Video Shaders: ON
+    - Load Preset -> `shaders_slang/crt/crt-royale.slangp`
+    - Save Preset -> Save Global Preset
+
+## Shaders
+
+- Default: `crt-lottes`
+- Nintendo - Game Boy
+  - Core options -> Video -> Palette -> DMG Green
+  - Shaders -> Load Preset -> `shaders_slang/handheld/console-border/dmg.slangp`-> Save Content Directory Preset
+- Nintendo - Game Boy Color
+  - Shaders -> Load Preset -> `shaders_slang/handheld/console-border/gbc-lcd-grid-v2.slangp`-> Save Content Directory Preset
+- Nintendo - Game Boy Advance
+  - Shaders -> Load Preset -> `shaders_slang/handheld/console-border/gba.slangp`-> Save Content Directory Preset
+- Sega - Game Gear
+  - Shaders -> Load Preset -> `shaders_slang/handheld/console-border/gg.slangp`-> Save Content Directory Preset
 
 ---
 
