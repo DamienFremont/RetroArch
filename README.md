@@ -6,13 +6,23 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 
 ## Content
 
-  1. [Install](#install)
-  2. [Config](#configuration)
-  3. [Usage](#usage)
-  4. [Contribution](#contribution)
-  5. [Resources](#resources)
+  1. [Screenshots](#screenshots)
+  2. [Install](#install)
+  3. [Config](#configuration)
+  4. [Usage](#usage)
+  5. [Contribution](#contribution)
+  6. [Resources](#resources)
 
 ---------------------------------------
+
+## Screenshots
+
+![alt text](./docs/screenshot-dreamcast.png)
+![alt text](./docs/screenshot-amstradcpc.png)
+![alt text](./docs/screenshot-gg.png)
+![alt text](./docs/screenshot-gb.png)
+![alt text](./docs/screenshot-gbc.png)
+![alt text](./docs/screenshot-gba.png)
 
 ## Install
 
