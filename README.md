@@ -35,23 +35,35 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 
 ### Cores
 
-- Sony - Playstation 2
-  - `RetroArch/core/pcsx2_libretro.dll`
-  - `RetroArch/system/pcsx2/bios/SCPH-70004_BIOS_V12_EUR_200.BIN`
-- Sony - Playstation/PSX
-  - `RetroArch/core/pcsx_rearmed_libretro.dll`
-  - `RetroArch/system/scph5500.bin, scph5501.bin, scph5502.bin`
+- Amstrad - CPC
+  - `RetroArch/core/cap32_libretro.dll`
+- Arcade - FinalBurn
+  - `RetroArch/core/fbneo_libretro.dll`
+    - `RetroArch/system/stvbios.zip` (bios)
+- Arcade - MAME2010
+  - `RetroArch/core/mame_libretro.dll`
+- Atari - 2600
+  - `RetroArch/core/stella2023_libretro.dll`
+- Commodore - Amiga
+  - `RetroArch/core/puae_libretro.dll`
+  - `RetroArch/`[capsimg.dll](https://github.com/rsn8887/capsimg/releases)
+  - `RetroArch/system/`[capsimg.dll](https://github.com/rsn8887/capsimg/releases)
+  - `RetroArch/system/`[kick34005.A500](https://github.com/rsn8887/capsimg/releases) (bios)
+- Handheld - (Nintendo - Game & Watch)
+  - `RetroArch/core/gw_libretro.dll`
+- Nintendo - Game Boy, Game Boy Color, Game Boy Advance
+  - `RetroArch/core/mgba_libretro.dll`
+  - `RetroArch/system/gb_bios.bin, gbc_bios.bin, gba_bios.bin, sgb_bios.bin`
 - Nintendo - Game Cube, Wii 
   - `RetroArch/core/dolphin_libretro.dll`
 - Nintendo - Nintendo 64
   - `RetroArch/core/mupen64plus_next_libretro.dll`
-- Nintendo - SNES
-  - `RetroArch/core/snes9x_libretro.dll`
-- Nintendo - Game Boy, Game Boy Color, Game Boy Advance
-  - `RetroArch/core/mgba_libretro.dll`
-  - `RetroArch/system/gb_bios.bin, gbc_bios.bin, gba_bios.bin, sgb_bios.bin`
 - Nintendo - NES
   - `RetroArch/core/nestopia_libretro.dll`
+- Nintendo - SNES
+  - `RetroArch/core/snes9x_libretro.dll`
+- Nintendo - WiiU
+  - `RetroArch/core/cemu_libretro.dll`
 - Sega Dreamcast
   - `RetroArch/core/flycast_libretro.dll`
   - `RetroArch/system/dc/`[dc_boot.bin](https://archive.org/download/dc_boot)
@@ -60,17 +72,17 @@ My personal files and configuration for RetroArch. You just need to copy roms an
   - `RetroArch/core/picodrive_libretro.dll`
   - `RetroArch/system/bios.sms`
   - `RetroArch/system/bios_CD_E.bin, bios_CD_J.bin, bios_CD_U.bin`
-- Amstrad - CPC
-  - `RetroArch/core/cap32_libretro.dll`
-- Commodore - Amiga
-  - `RetroArch/core/puae_libretro.dll`
-  - `RetroArch/`[capsimg.dll](https://github.com/rsn8887/capsimg/releases)
-  - `RetroArch/system/`[capsimg.dll](https://github.com/rsn8887/capsimg/releases)
-  - `RetroArch/system/`[kick34005.A500](https://github.com/rsn8887/capsimg/releases) (bios)
-- Arcade
-  - `RetroArch/core/mame_libretro.dll`
-  - `RetroArch/core/fbneo_libretro.dll`
-    - `RetroArch/system/stvbios.zip` (bios)
+- Sega - Saturn
+  - `RetroArch/core/mednafen_saturn_libretro.dll`
+  - `RetroArch/system/sega_101.bin`
+- Sony - Playstation 2
+  - `RetroArch/core/pcsx2_libretro.dll`
+  - `RetroArch/system/pcsx2/bios/SCPH-70004_BIOS_V12_EUR_200.BIN`
+- Sony - Playstation Portable
+  - `RetroArch/core/psspp_libretro.dll`
+- Sony - Playstation/PSX
+  - `RetroArch/core/pcsx_rearmed_libretro.dll`
+  - `RetroArch/system/scph5500.bin, scph5501.bin, scph5502.bin`
 
 ## Configuration
 
