@@ -26,11 +26,11 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 
 ## Install
 
-- clone this repo into `D:\Games`
-- unzip `RetroArch.zip` into `D:\Games\RetroArch`
-- copy roms into `D:\Games\RetroArch\roms`
-- copy Gamecube meme cards into `D:\Games\RetroArch\saves\User\GC`
-- execute `D:\Games\RetroArch\retroarch.exe`
+- clone this repo into `C:\Games`
+- unzip `RetroArch.zip` into `C:\Games\RetroArch`
+- copy roms into `C:\Games\RetroArch\roms`
+- copy Gamecube meme cards into `C:\Games\RetroArch\saves\User\GC`
+- execute `C:\Games\RetroArch\retroarch.exe`
 - Main Menu -> Online updater -> Core updater -> ...
 
 ### Cores
@@ -94,7 +94,7 @@ Settings -> User Interface -> Menu Item Visibility -> Tabs
 Settings -> User Interface -> Appearance
 - Shader Pipeline: OFF
 - Color Theme: Background Image
-- Background Image: D:\Games\RetroArch\assets\wallpapers\default,png
+- Background Image: C:\Games\RetroArch\assets\wallpapers\default,png
 - Background opacity 90
 - Dynamic Background: YES
 - Icon Theme: Retro System
