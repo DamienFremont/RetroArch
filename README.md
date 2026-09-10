@@ -62,8 +62,9 @@ My personal files and configuration for RetroArch. You just need to copy roms an
   - `RetroArch/core/nestopia_libretro.dll`
 - Nintendo - SNES
   - `RetroArch/core/snes9x_libretro.dll`
-- Nintendo - WiiU
+- Nintendo - Wii U
   - `RetroArch/core/cemu_libretro.dll`
+  - `RetroArch/info/cemu_libretro.info`
 - Sega Dreamcast
   - `RetroArch/core/flycast_libretro.dll`
   - `RetroArch/system/dc/`[dc_boot.bin](https://archive.org/download/dc_boot)
@@ -83,6 +84,8 @@ My personal files and configuration for RetroArch. You just need to copy roms an
 - Sony - Playstation/PSX
   - `RetroArch/core/pcsx_rearmed_libretro.dll`
   - `RetroArch/system/scph5500.bin, scph5501.bin, scph5502.bin`
+- The 3DO Company - 3DO
+  - `RetroArch/core/opera_libretro.dll`
 
 ## Configuration
 
@@ -170,6 +173,8 @@ sources at [./assets/wallpapers/](./assets/wallpapers/) (PNG and PSD files)
 ![alt text](./assets/wallpapers/ScummVM.png)
 
 ![alt text](./assets/wallpapers/Handheld%20Electronic%20Game.png)
+
+![alt text](./assets/wallpapers/Nintendo%20-%20Wii%20U.png)
 
 ## FAQ
 
