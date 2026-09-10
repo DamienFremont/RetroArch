@@ -139,15 +139,23 @@ ex: CRT Royale
 
 ## Contribution
 
-### Wallpapers for Kdeizy
+Copy wallpapers file to [./assets/wallpapers/*.png](./assets/wallpapers/) (should be named exactly like you playlist files from [./playlists/*.lpl](./playlists/)).
 
-follow up of [Dynamic Wallpapers. Google link in comments. (Reddit)](https://www.reddit.com/r/RetroArch/comments/mz1zq0/dynamic_wallpapers_google_link_in_comments/)
+### Wallpapers from Kdeizy
+
+follow up [Dynamic Wallpapers. Google link in comments. (Reddit)](https://www.reddit.com/r/RetroArch/comments/mz1zq0/dynamic_wallpapers_google_link_in_comments/)
+
+![alt text](./docs/contribution-reddit.png)
+
+### Wallpapers from me (Damien)
+
+sources at [./assets/wallpapers/](./assets/wallpapers/) (PNG and PSD files)
 
 ![alt text](./assets/wallpapers/Amstrad%20-%20CPC.png)
 
 ![alt text](./assets/wallpapers/Commodore%20-%20Amiga.png)
 
-![alt text](./docs/contribution-reddit.png)
+![alt text](./assets/wallpapers/ScummVM.png)
 
 ## FAQ
 
