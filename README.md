@@ -72,7 +72,6 @@ My personal files and configuration for RetroArch. You just need to copy roms an
   - `RetroArch/core/fbneo_libretro.dll`
     - `RetroArch/system/stvbios.zip` (bios)
 
-
 ## Configuration
 
 Desktop Menu (F5) -> View -> Settings...
@@ -108,7 +107,8 @@ Settings -> User Interface -> Appearance
 - Toggle Menu: <kbd>F1</kbd> or <kbd>Start</kbd>+<kbd>Select</kbd>
 - Speed up: <kbd>SPACE</kbd>
 - Fullscreen: <kbd>F</kbd>
-- DIsable Shader/Filter: <kbd>,</kbd>
+- Disable Shader/Filter: <kbd>,</kbd>
+- Show FPS: <kbd>F3</kbd>
 
 ## Shader by default
 
@@ -158,7 +158,7 @@ Why not console arcade ports ?
 - Because original Arcade system looks better.
 
 Why no system after year 2000 ?
-- Beacuse files take up too much space
+- Because files take up too much space
 
 ---
 
