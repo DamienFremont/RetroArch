@@ -169,6 +169,8 @@ sources at [./assets/wallpapers/](./assets/wallpapers/) (PNG and PSD files)
 
 ![alt text](./assets/wallpapers/ScummVM.png)
 
+![alt text](./assets/wallpapers/Handheld%20Electronic%20Game.png)
+
 ## FAQ
 
 Why not Atari-ST ? 
